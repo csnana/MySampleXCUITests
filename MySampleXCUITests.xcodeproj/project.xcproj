@@ -11,6 +11,273 @@
     ],
   },
   "files": [
+    {
+      "kind": "group",
+      "path": ".git",
+      "children": [
+        {
+          "kind": "group",
+          "path": "hooks",
+          "children": [
+            { "path": "applypatch-msg.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "commit-msg.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "fsmonitor-watchman.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "post-update.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-applypatch.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-commit.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-merge-commit.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-push.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-rebase.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "pre-receive.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "prepare-commit-msg.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "push-to-checkout.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "sendemail-validate.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+            { "path": "update.sample", "target-membership": [ "MySampleXCUITests/resources" ] },
+          ],
+        }, {
+          "kind": "group",
+          "path": "info",
+          "children": [
+            { "path": "exclude", "target-membership": [ "MySampleXCUITests/resources" ] },
+          ],
+        }, {
+          "kind": "group",
+          "path": "logs",
+          "children": [
+            {
+              "kind": "group",
+              "path": "refs",
+              "children": [
+                {
+                  "kind": "group",
+                  "path": "heads",
+                  "children": [
+                    { "path": "main", "target-membership": [ "MySampleXCUITests/resources" ] },
+                  ],
+                }, {
+                  "kind": "group",
+                  "path": "remotes",
+                  "children": [
+                    {
+                      "kind": "group",
+                      "path": "origin",
+                      "children": [
+                        { "path": "main", "target-membership": [ "MySampleXCUITests/resources" ] },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            { "path": "HEAD", "target-membership": [ "MySampleXCUITests/resources" ] },
+          ],
+        }, {
+          "kind": "group",
+          "path": "objects",
+          "children": [
+            {
+              "kind": "group",
+              "path": "2c",
+              "children": [
+                { "path": "d9f253c1034068b0bcb0eeb27a57228b6ddd54", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "3d",
+              "children": [
+                { "path": "58437446e2998a3530335f35282f4748edee75", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "04",
+              "children": [
+                { "path": "77c977eda744eca13ecef7a1fb8b7291b0b099", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "6f",
+              "children": [
+                { "path": "3b15bf8ad8e67dbb1bbfd3079f3e637f93f156", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "7a",
+              "children": [
+                { "path": "c161dea2c19a3f8c4d0b1eb900bc40036699d6", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "8b",
+              "children": [
+                { "path": "88726e1e9e915e1e3fcba432d235b79e0485b7", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "35",
+              "children": [
+                { "path": "385df6b0c0c2ee87b5cced39eb12dd3e3a167d", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "37",
+              "children": [
+                { "path": "2576b5a845800ad0265e866afb183fcee4e1de", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "44",
+              "children": [
+                { "path": "4db2edf5ed83b00d3f0d95cb7b965df73b11dd", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "50",
+              "children": [
+                { "path": "c93fd9cd5a700bb990fa8302f19e35d1f33a4a", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "73",
+              "children": [
+                { "path": "c00596a7fca3f3d4bdd64053b69d86745f9e10", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "77",
+              "children": [
+                { "path": "662598491514f9db2ea291437c25498214b388", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "81",
+              "children": [
+                { "path": "4a50de3642b14770f0f3eacc3f788fd00ba0b7", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "86",
+              "children": [
+                { "path": "dc10932079b5552e1687470e987e0e546781f2", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "91",
+              "children": [
+                { "path": "9434a6254f0e9651f402737811be6634a03e9c", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "95",
+              "children": [
+                { "path": "17fb209afaf7fb3f064edc237459531c5d6588", "target-membership": [ "MySampleXCUITests/resources" ] },
+                { "path": "d5687075e5de0744a79f102b5d58e7d6acad71", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "96",
+              "children": [
+                { "path": "7260029be3d19611792eb5e0aa340edd5c6373", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "98",
+              "children": [
+                { "path": "6bd324c26d854187559f27f8194c8afd1795ac", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "bc",
+              "children": [
+                { "path": "754656c87dd305d6b2a1cbfe15f96f4ad6d917", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "d9",
+              "children": [
+                { "path": "c19cc17a1d6452956495c8f392c3673f08a9eb", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "de",
+              "children": [
+                { "path": "c4f6121790eaa73abf4e7d5a0d1b07ee273ee9", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "e0",
+              "children": [
+                { "path": "47ba3cd31a22f479f61b1fd99dda86bfe496f8", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "e6",
+              "children": [
+                { "path": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "eb",
+              "children": [
+                { "path": "8789700816459c1e1480e0b34781d9fb78a1ca", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "f0",
+              "children": [
+                { "path": "18f78277b31dce932418818b8d1c96fed867f3", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "f2",
+              "children": [
+                { "path": "97367966a7470c40f546218a60c34edb3cf38e", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "f5",
+              "children": [
+                { "path": "c9fee43562d500696a16768efcfe919befe75c", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            },
+            { "kind": "group", "path": "info" },
+            { "kind": "group", "path": "pack" },
+          ],
+        }, {
+          "kind": "group",
+          "path": "refs",
+          "children": [
+            {
+              "kind": "group",
+              "path": "heads",
+              "children": [
+                { "path": "main", "target-membership": [ "MySampleXCUITests/resources" ] },
+              ],
+            }, {
+              "kind": "group",
+              "path": "remotes",
+              "children": [
+                {
+                  "kind": "group",
+                  "path": "origin",
+                  "children": [
+                    { "path": "main", "target-membership": [ "MySampleXCUITests/resources" ] },
+                  ],
+                },
+              ],
+            },
+            { "kind": "group", "path": "tags" },
+          ],
+        },
+        { "path": "COMMIT_EDITMSG", "target-membership": [ "MySampleXCUITests/resources" ] },
+        { "path": "config", "target-membership": [ "MySampleXCUITests/resources" ] },
+        { "path": "description", "target-membership": [ "MySampleXCUITests/resources" ] },
+        { "path": "HEAD", "target-membership": [ "MySampleXCUITests/resources" ] },
+        { "path": "index", "target-membership": [ "MySampleXCUITests/resources" ] },
+      ],
+    },
+    { "path": ".gitignore", "target-membership": [ "MySampleXCUITests/resources" ] },
+    { "path": "patch-runner-icon.sh", "target-membership": [ "MySampleXCUITests/resources" ] },
+    { "path": "README.md", "target-membership": [ "MySampleXCUITests/resources" ] },
     { "kind": "folder", "path": "MySampleXCUITest", "target-membership": [ "MySampleXCUITests" ] },
     { "kind": "folder", "path": "MySampleXCUITestsUITests", "target-membership": [ "MySampleXCUITestsUITests" ] },
     { "kind": "folder", "path": "TapoAlert", "target-membership": [ "TapoAlert" ] },
